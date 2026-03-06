@@ -91,8 +91,6 @@ El sitio incluye varias animaciones como:
 
 ---
 
-## 📷 Vista del proyecto
-
 
 ## 📷 Vista del proyecto
 
