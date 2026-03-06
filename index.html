@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Portafolio Oscuro</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="style.css">
 
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
@@ -10,9 +11,9 @@
 
 <body>
 
-<header>
-<h1> Portafolio de Leidy</h1>
-<p>Desarrolladora en la sombra</p>
+<header class="header">
+<h1 class="titulo"> Portafolio de Leidy</h1>
+<p class="subtitulo">Desarrolladora en la sombra</p>
 </header>
 
 <nav>
@@ -23,31 +24,169 @@
 </nav>
 
 <section id="inicio" class="seccion">
-<h2>Bienvenido a mi reino oscuro</h2>
-<p>Este portafolio muestra mis proyectos, habilidades y creatividad en programación.</p>
+
+<h2 class="titulo"> Bienvenido a mi reino oscuro</h2>
+
+<p class="descripcion">
+Este portafolio muestra mis proyectos, habilidades y creatividad en programación.
+Explora mis trabajos, tecnologías que utilizo y los proyectos que he desarrollado.
+</p>
+
+<div class="botones">
 <button onclick="mensaje()">Invocar mensaje</button>
+
+<a href="#proyectos">
+<button class="btn-secundario">Ver proyectos</button>
+</a>
+</div>
+
+<div class="iconos">
+<i class="fa-brands fa-html5"></i>
+<i class="fa-brands fa-css3-alt"></i>
+<i class="fa-brands fa-js"></i>
+<i class="fa-brands fa-github"></i>
+</div>
+
 </section>
 
-<section id="sobre" class="seccion">
+<div class="sobre-contenedor">
+
+<div class="cuadro">
+<h3>💻 Tecnologías que uso</h3>
+
+<ul class="lista-iconos">
+<li><i class="fa-brands fa-html5"></i> HTML</li>
+<li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+<li><i class="fa-brands fa-js"></i> JavaScript</li>
+<li><i class="fa-solid fa-database"></i> SQL</li>
+</ul>
+
+</div>
+
+
+<div class="cuadro">
+<h3>🛠 Herramientas que manejo</h3>
+
+<ul class="lista-iconos">
+<li><i class="fa-brands fa-github"></i> GitHub</li>
+<li><i class="fa-solid fa-code"></i> VS Code</li>
+<li><i class="fa-solid fa-laptop-code"></i> Oracle SQL Developer</li>
+</ul>
+
+</div>
+
+</div>
+
+<section id="habilidades">
+
+<h2> Habilidades</h2>
+
+<div class="skill">
+
+<div class="skill-info">
+<i class="fa-brands fa-html5"></i>
+<span>HTML</span>
+</div>
+
+<div class="barra">
+<div class="progreso html"></div>
+</div>
+
+</div>
+
+
+<div class="skill">
+
+<div class="skill-info">
+<i class="fa-brands fa-css3-alt"></i>
+<span>CSS</span>
+</div>
+
+<div class="barra">
+<div class="progreso css"></div>
+</div>
+
+</div>
+
+
+<div class="skill">
+
+<div class="skill-info">
+<i class="fa-brands fa-js"></i>
+<span>JavaScript</span>
+</div>
+
+<div class="barra">
+<div class="progreso js"></div>
+</div>
+
+</div>
+
+
+<div class="skill">
+
+<div class="skill-info">
+<i class="fa-solid fa-database"></i>
+<span>SQL</span>
+</div>
+
+<div class="barra">
+<div class="progreso sql"></div>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="sobre">
 
 <h2>Sobre mí</h2>
 
-<p>
-Soy estudiante apasionada por la programación y el desarrollo web. 
-Me gusta crear páginas interactivas combinando HTML, CSS y JavaScript.
-</p>
+<div class="sobre-contenedor">
 
+<div class="cuadro">
+<h3>🦇 Quién soy</h3>
 <p>
-Disfruto diseñar proyectos creativos con estilos únicos, especialmente 
-temáticas oscuras, góticas y de misterio.
+Soy estudiante de programación apasionada por el desarrollo web.
+Me gusta crear páginas creativas con HTML, CSS y JavaScript,
+especialmente con estilos oscuros y temáticas de terror o fantasía.
 </p>
+</div>
 
+<div class="cuadro">
+<h3>💻 Habilidades</h3>
 <p>
-Actualmente sigo aprendiendo nuevas tecnologías para mejorar mis habilidades
-como desarrolladora y crear experiencias web más innovadoras.
+HTML <br>
+CSS <br>
+JavaScript <br>
+SQL / Bases de Datos <br>
+Diseño Web
 </p>
+</div>
+
+<div class="cuadro">
+<h3>🎯 Objetivo</h3>
+<p>
+Seguir aprendiendo desarrollo web y crear proyectos creativos
+que combinen programación, diseño y experiencias interactivas.
+</p>
+</div>
+
+<div class="cuadro">
+<h3>🩸 Intereses</h3>
+<p>
+Diseño gótico <br>
+Historias de terror <br>
+Tecnología <br>
+Desarrollo de proyectos web
+</p>
+</div>
+
+</div>
 
 </section>
+
 
 <section id="proyectos" class="seccion">
 <h2>Proyectos</h2>
