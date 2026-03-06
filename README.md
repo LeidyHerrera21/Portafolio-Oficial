@@ -10,7 +10,7 @@ Bienvenido a mi **Portafolio de Desarrollo Web**, un sitio con temática oscura 
 
 Puedes ver el portafolio aquí:
 
-🔗 https://leidyherrera21.github.io/
+🔗 https://github.com/LeidyHerrera21
 
 ---
 
@@ -77,9 +77,6 @@ Cada proyecto incluye:
 - Vista previa de la página
 - Enlace al proyecto en [GitHub Pages](https://leidyherrera21.github.io/Portafolio-Oficial/)
 
-### 📧 Contacto
-Información para contactarme.
-
 ---
 
 ## 🎬 Animaciones implementadas
@@ -97,9 +94,11 @@ El sitio incluye varias animaciones como:
 ## 📷 Vista del proyecto
 
 
-```markdown
-[Vista del portafolio](img/image%20(2).png)
-```
+## 📷 Vista del proyecto
+
+<p align="center">
+  <img src="img/image (2).png" width="800">
+</p>
 
 ---
 
