@@ -1,0 +1,110 @@
+body{
+background: #0b0b0b;
+color: #e6e6e6;
+font-family: 'Cinzel', serif;
+margin:0;
+}
+
+header{
+text-align:center;
+padding:40px;
+background: linear-gradient(black, darkred);
+}
+
+h1{
+color:#ff1a1a;
+font-size:45px;
+}
+
+nav{
+text-align:center;
+background:#111;
+padding:15px;
+}
+
+nav a{
+color:#ccc;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+nav a:hover{
+color:red;
+}
+
+.seccion{
+padding:50px;
+text-align:center;
+}
+
+.tarjeta{
+background:#1a1a1a;
+border:1px solid darkred;
+padding:20px;
+margin:20px;
+display:inline-block;
+width:250px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.tarjeta:hover{
+transform:scale(1.05);
+box-shadow:0 0 15px red;
+}
+
+button{
+background:darkred;
+color:white;
+border:none;
+padding:12px 20px;
+font-size:16px;
+cursor:pointer;
+border-radius:5px;
+}
+
+button:hover{
+background:red;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#111;
+}
+
+/*PROYECTOS*/
+
+.tarjeta{
+background:#1a1a1a;
+border:1px solid darkred;
+border-radius:10px;
+width:320px;
+margin:20px;
+padding:15px;
+text-align:center;
+display:inline-block;
+}
+
+.vista-proyecto{
+width:100%;
+height:200px;
+border:none;
+margin-bottom:10px;
+border-radius:5px;
+}
+
+.tarjeta a{
+display:inline-block;
+margin:5px;
+padding:8px 14px;
+background:darkred;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.tarjeta a:hover{
+background:red;
+}
