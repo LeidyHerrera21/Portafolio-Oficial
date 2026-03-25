@@ -1,8 +1,8 @@
-# 🦇 Portafolio Oscuro - Leidy Herrera
+# Portafolio - Leidy Herrera
 
-Bienvenido a mi **Portafolio de Desarrollo Web**, un sitio con temática oscura inspirado en un estilo **gótico/vampiro**, donde presento mis proyectos, habilidades y creatividad en programación.
+Bienvenido a mi **Portafolio de Desarrollo Web**, un sitio con temática oscura inspirado en un estilo **gótico**, donde presento mis proyectos, habilidades y creatividad en programación.
 
-🌑 *"Desarrolladora en la sombra"*  
+🌑 *"Desarrolladora"*  
 
 ---
 
@@ -63,10 +63,8 @@ Información sobre mí como desarrolladora, mis intereses y objetivos.
 - HTML
 - CSS
 - JavaScript
-- SQL
 - GitHub
 - VS Code
-- Oracle SQL Developer
 
 ### 📊 Habilidades
 Barras animadas que muestran mi nivel en diferentes tecnologías.
